@@ -14,7 +14,7 @@ print('***********************')
 def main(dataframe, running_program):
     valid_options = ['1', '2', '3', '4', '5', '6']
     print('\n1. Verify the full database of refuge requests')
-    print('2. Filter the database')
+    print('2. Graphics')
     print('3. Verify the statistcs')
     print('4. Request contact')
     print('5. How to use')
@@ -23,7 +23,7 @@ def main(dataframe, running_program):
     while choice not in valid_options:
         choice = input('please, select a valid option: ')
     if choice == '1':
-        print('not yet done \n')
+        display_any_dataframe(dataframe)
     if choice == '2':
         print('not yet done \n')
     if choice == '3':
